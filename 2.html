@@ -8,12 +8,6 @@
         color: black;
         text-decoration: none;
       }
-      .saw {
-        color: gray;
-      }
-      #active {
-        color: blue;
-      }
       h1 {
           font-size: 450%;
           text-align: center;
@@ -21,15 +15,19 @@
           margin: 0;
           padding: 20px;
       }
-      ol{
+      #grid ol{
         border-right: 1px solid gray;
         width:120px;
         margin: 0;
         padding: 20px;
+        padding-left: 30px;
       }
       #grid {
         display: grid;
-        grid-template-columns: 180px 1fr;
+        grid-template-columns: 150px 1fr;
+      }
+      #grid #article {
+        padding-left: 45px;
       }
     </style>
   </head>
@@ -40,12 +38,12 @@
   </header>
     <div id="grid">
     <ol>
-      <li><a href="1.html" class="saw"><strong>가수로서의 IU</strong></a></li>
+      <li><a href="1.html"><strong>가수로서의 IU</strong></a></li>
       <br>
-      <li><a href="2.html" class="saw " id="active"> <strong>배우로서의 IU, 이지은</strong></a></li>
+      <li><a href="2.html"> <strong>배우로서의 IU, 이지은</strong></a></li>
     </ol>
 
-    <div>
+    <div id="article">
     <p style="margin-top:35px"></p>
       <h2>배우로서의 IU, 이지은</h2>
       아이유, 이지은은 배우이다<br> 대표작으로는 우선,
