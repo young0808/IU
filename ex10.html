@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>객체 쓰기와 읽기</title>
+</head>
+<body>
+    <h1>객체</h1>
+    <h2>생성</h2>
+    <script>
+        var redvelvet = {
+            "leader":"irene",
+            "main vocal":"wendy"
+        };
+        document.write("main vocal : "+redvelvet.mainvocal+"<br>");
+        document.write("leader : "+redvelvet.leader+"<br>");
+        redvelvet["main dancer"] = "seulgi"; //띄어쓰기가 필요할 때 사용
+        document.write("main dancer : "+redvelvet["main dancer"]+"<br>");
+    </script>
+</body>
+</html>
